@@ -10,10 +10,11 @@ int main()
 	cout << "Input second number: "; cin >> b;
 	switch (op)
 	{
-	case 1: result; break;
-	case 2: result; break;
-	case 3: result; break;
-	case 4: result; break;
+	case 1: result = a + b; break;
+	case 2: result = a - b; break;
+	case 3: result = a * b; break;
+	case 4: result = a / b; break;
+	case 5: result = a ** b; break;
 	}
 	cout << "Answer: " << result << endl;
 	return 0;
