@@ -14,7 +14,7 @@ int main()
 	case 2: result = a - b; break;
 	case 3: result = a * b; break;
 	case 4: result = a / b; break;
-	case 5: result = a ** b; break;
+	case 5: result = pow(a, b); break;
 	}
 	cout << "Answer: " << result << endl;
 	return 0;
