@@ -19,5 +19,4 @@ int main()
 	}
 	cout << "Answer: " << result << endl;
 	return 0;
-}return 0;
 }
